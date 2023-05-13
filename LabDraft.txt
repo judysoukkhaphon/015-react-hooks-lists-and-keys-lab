@@ -1,0 +1,14 @@
+1. In NavBar, Create an <a> tag for each of the 3 links from the array w/ unique key props each.
+	<a href="#home">home</a>
+	
+	(they each have the same href?)
+
+2. In ProjectList, for each of the projects in the array passed down from App, render one 'ProjectItem' with the correct props. Use project-id for 'key' prop.
+    (user.projects is the array) 
+
+3. From ProjectList, pass down an array of 'technologies' to ProjectItem. For each technology in the array, create a <span> tag that displays the name of the technology.
+
+
+--------------------------------------
+
+when arrays are used in JSX, they need to have a unique 'key' prop.
